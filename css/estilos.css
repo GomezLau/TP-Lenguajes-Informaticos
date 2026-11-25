@@ -211,3 +211,43 @@ footer a {
     color: var(--p4-celeste);
 }
 
+/* ==========================================
+   Reproductor de musica
+   ========================================== */
+#now-playing-widget {
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--p4-amarillo, #f5c518);
+    max-width: 300px;
+}
+
+.now-playing-label {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--p4-amarillo, #f5c518);
+}
+
+.now-playing-title {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #ffffff;
+    max-width: 145px;
+}
+
+.player-btn {
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 0.15rem 0.4rem;
+    font-size: 0.75rem;
+    line-height: 1;
+    transition: transform 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.player-btn:hover,
+.player-btn:focus {
+    color: var(--p4-negro, #111111);
+    background-color: var(--p4-amarillo, #f5c518);
+    border-color: var(--p4-amarillo, #f5c518);
+    transform: translateY(-1px);
+}
